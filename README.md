@@ -1,4 +1,4 @@
-# Perpustakaan Buku Digital (CodeIgniter 3)
+# Perpustakaan Buku Digital Rakha
 
 ## Fitur
 - CRUD Buku (upload PDF)
@@ -17,11 +17,3 @@
    - Username: `admin`
    - Password: `admin123` (ganti hash di SQL jika ingin password lain)
 
-## Catatan
-- File PDF buku akan tersimpan di folder `uploads/`
-- Untuk ganti password admin, update hash di tabel `users` (gunakan PHP password_hash)
-- Jika ingin menjalankan dengan PHP built-in server:
-  ```
-  php -S localhost:8000
-  ```
-  lalu akses `http://localhost:8000/` 
